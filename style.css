@@ -1,0 +1,92 @@
+/*
+Theme Name: my_first_theme
+Author: Vladan Ilic
+Description: Task - Kreiranje WordPress teme
+Text Domain: myfirsttheme
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    text-transform: uppercase;
+    margin: 0.4em 0;
+}
+h1 { font-size: 36px;}
+h2 { font-size: 30px;}
+h3 { font-size: 26px;}
+h4 { font-size: 20px;}
+h5 { font-size: 18px;}
+h6 { font-size: 16px;}
+p { margin: 0.3em 0;}
+img {
+    vertical-align: bottom;
+}
+a, a:link, a:visited {
+    color: #990b16;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff9100;
+}
+a:active {
+    color: #777;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.site-header {
+    background: #EEE;
+    padding: 20px;
+    border-bottom: 3px solid #ff9100;
+}
+.site-nav {
+    background: rgb(92, 92, 92);
+    border-bottom: 3px solid #ff9100;
+
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site-nav ul li {
+    display: inline-block;
+}
+.site-nav ul li a {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+}
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+.site-nav ul li a:hover {
+    background: #ff6600;
+}
+.site-nav ul li a:active {
+    color: #ff6600;
+    background: rgba(0,0,0,0.6);
+}
+.central {
+    padding: 40px 20px;
+}
+.site-footer {
+    background: #444;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    border-top: 3px solid #ff9100;
+}
